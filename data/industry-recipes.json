@@ -1,0 +1,152 @@
+{
+  "_note": "Each recipe defines the default section order and content guidance for an industry. The AI uses this as a starting point, then the design brief adds the visual personality.",
+
+  "hair_salon": {
+    "sections": ["navigation", "hero", "trust-strip", "services", "about", "gallery", "testimonials", "team", "cta", "faq", "contact", "footer"],
+    "hero_content": "Aspirational headline about hair transformation. Subtext about expertise and welcoming atmosphere. CTA: Book Now.",
+    "key_features": ["service menu with pricing by stylist level", "staff profiles with specialisms", "before/after gallery", "online booking CTA"],
+    "tone": "warm, welcoming, aspirational, feminine",
+    "imagery_notes": "Hair transformations, salon interior, styling in progress, product shots"
+  },
+
+  "barber": {
+    "sections": ["navigation", "hero", "trust-strip", "services", "gallery", "about", "testimonials", "cta", "faq", "contact", "footer"],
+    "hero_content": "Bold, confident headline. Short punchy subtext. CTA: Book Now or Walk In.",
+    "key_features": ["service list with clear pricing", "portfolio/gallery of cuts", "walk-in availability", "location and hours prominent"],
+    "tone": "bold, masculine, confident, no-nonsense",
+    "imagery_notes": "Close-up cuts, straight razor work, barber chair, shop interior, dark moody lighting"
+  },
+
+  "restaurant": {
+    "sections": ["navigation", "hero", "trust-strip", "about", "menu-highlights", "gallery", "testimonials", "reservation-cta", "location", "footer"],
+    "hero_content": "Atmospheric headline about dining experience. Subtext about cuisine and ambiance. CTA: Reserve a Table.",
+    "key_features": ["menu highlights (not full menu)", "reservation/booking CTA", "opening hours prominent", "location with map", "atmosphere gallery"],
+    "tone": "warm, atmospheric, inviting, appetising",
+    "imagery_notes": "Plated dishes, restaurant interior, chef at work, table settings, moody lighting"
+  },
+
+  "cafe": {
+    "sections": ["navigation", "hero", "menu-highlights", "about", "gallery", "testimonials", "location", "footer"],
+    "hero_content": "Friendly, casual headline. Subtext about coffee/food quality and atmosphere. CTA: View Menu or Visit Us.",
+    "key_features": ["menu highlights", "opening hours", "location prominent", "Instagram feed or gallery"],
+    "tone": "friendly, casual, cozy, artisanal",
+    "imagery_notes": "Latte art, pastries, cozy interior, barista at work, natural light"
+  },
+
+  "aesthetics_clinic": {
+    "sections": ["navigation", "hero", "trust-strip", "treatments", "about", "results-gallery", "practitioner-profiles", "testimonials", "consultation-cta", "faq", "contact", "footer"],
+    "hero_content": "Professional headline about skin confidence/transformation. Subtext about clinical expertise. CTA: Book a Consultation (NOT 'Buy Treatment').",
+    "key_features": ["treatment cards with what-it-treats and recovery info", "before/after results (with consent)", "practitioner qualifications", "consultation-first CTA", "patch test info"],
+    "tone": "professional, clinical but warm, trustworthy, aspirational",
+    "imagery_notes": "Clean clinical space, treatment in progress, skin close-ups, practitioner portraits",
+    "compliance": "ASA/CAP: never say 'Botox' (use 'anti-wrinkle injections'), no time-limited financial inducements, consultation-first approach required"
+  },
+
+  "spa_wellness": {
+    "sections": ["navigation", "hero", "trust-strip", "treatments", "packages", "about", "gallery", "testimonials", "gift-vouchers", "cta", "contact", "footer"],
+    "hero_content": "Serene headline about relaxation and renewal. Subtext about escape and self-care. CTA: Book Your Experience.",
+    "key_features": ["treatment menu with duration and pricing", "spa day packages", "gift voucher section", "facilities gallery", "opening hours"],
+    "tone": "calm, luxurious, serene, indulgent",
+    "imagery_notes": "Candles, massage stones, pool, treatment rooms, natural elements, soft lighting"
+  },
+
+  "gym": {
+    "sections": ["navigation", "hero", "stats-strip", "classes", "about", "trainers", "transformations", "membership", "testimonials", "cta", "faq", "contact", "footer"],
+    "hero_content": "Motivational headline about pushing limits. Short aggressive subtext. CTA: Start Your Free Trial.",
+    "key_features": ["class timetable", "membership tiers with comparison", "trainer profiles", "transformation gallery", "free trial CTA"],
+    "tone": "energetic, bold, motivational, intense",
+    "imagery_notes": "People training, equipment, group classes, before/after transformations, dark dramatic lighting"
+  },
+
+  "personal_trainer": {
+    "sections": ["navigation", "hero", "stats-strip", "services", "about", "transformations", "testimonials", "pricing", "cta", "faq", "contact", "footer"],
+    "hero_content": "Personal headline about achieving goals. Subtext about customised approach. CTA: Book Free Consultation.",
+    "key_features": ["services/packages", "transformation results", "qualifications/certifications", "personal story", "pricing clear"],
+    "tone": "motivational, personal, results-driven, approachable",
+    "imagery_notes": "Training sessions, PT with client, gym environment, before/after results"
+  },
+
+  "yoga_pilates": {
+    "sections": ["navigation", "hero", "about", "classes", "schedule", "instructors", "testimonials", "pricing", "cta", "contact", "footer"],
+    "hero_content": "Peaceful headline about balance and wellbeing. Subtext about practice and community. CTA: Book a Class.",
+    "key_features": ["class timetable", "class descriptions by level", "instructor profiles", "trial class offer", "membership options"],
+    "tone": "calm, mindful, welcoming, grounding",
+    "imagery_notes": "Yoga poses, studio space, natural light, meditation, peaceful environments"
+  },
+
+  "dental": {
+    "sections": ["navigation", "hero", "trust-strip", "services", "about", "team", "testimonials", "faq", "cta", "contact", "footer"],
+    "hero_content": "Trust-focused headline about smiles and confidence. Subtext about caring professional team. CTA: Book an Appointment.",
+    "key_features": ["services list (NHS + private)", "dentist profiles with GDC numbers (mandatory)", "CQC registration badge", "emergency contact info", "patient reviews"],
+    "tone": "clinical, trustworthy, reassuring, professional",
+    "imagery_notes": "Smiling patients, clean surgery, friendly team, modern equipment",
+    "compliance": "Must display GDC registration numbers, CQC registration, complaints procedure link"
+  },
+
+  "physiotherapy": {
+    "sections": ["navigation", "hero", "trust-strip", "conditions-treated", "about", "team", "testimonials", "cta", "faq", "contact", "footer"],
+    "hero_content": "Recovery-focused headline. Subtext about expertise and getting back to normal. CTA: Book Assessment.",
+    "key_features": ["conditions treated list", "practitioner profiles with HCPC numbers (mandatory)", "what to expect section", "referral info (GP/self-referral)"],
+    "tone": "professional, reassuring, knowledgeable, supportive",
+    "imagery_notes": "Treatment in progress, exercise demonstrations, clinic interior, team photos",
+    "compliance": "Must display HCPC registration numbers"
+  },
+
+  "tattoo_piercing": {
+    "sections": ["navigation", "hero", "portfolio", "artists", "about", "services", "aftercare", "testimonials", "cta", "faq", "contact", "footer"],
+    "hero_content": "Bold creative headline. Subtext about artistry and self-expression. CTA: Book a Consultation.",
+    "key_features": ["portfolio grid filterable by style", "individual artist profiles", "deposit/booking info", "aftercare section", "age verification notice"],
+    "tone": "dark, creative, bold, artistic, authentic",
+    "imagery_notes": "Tattoo close-ups, artist at work, flash sheets, studio interior, healed work",
+    "compliance": "Tattooing of Minors Act 1969 — must state under 18 cannot be tattooed"
+  },
+
+  "photography": {
+    "sections": ["navigation", "hero", "portfolio", "about", "services", "testimonials", "pricing", "cta", "blog", "contact", "footer"],
+    "hero_content": "Visual-first hero. Headline about capturing moments. CTA: View Portfolio or Book a Shoot.",
+    "key_features": ["portfolio gallery by category", "packages with pricing", "what's included", "booking process explained", "blog/journal"],
+    "tone": "artistic, personal, storytelling, emotional",
+    "imagery_notes": "Best portfolio shots, behind the scenes, varied styles showing range"
+  },
+
+  "veterinary": {
+    "sections": ["navigation", "hero", "trust-strip", "services", "team", "about", "testimonials", "emergency-info", "cta", "faq", "contact", "footer"],
+    "hero_content": "Caring headline about pet health. Subtext about experienced team. CTA: Register Your Pet or Book Appointment.",
+    "key_features": ["services list", "vet profiles with RCVS numbers (mandatory)", "emergency/out-of-hours info (legally required)", "pet registration", "opening hours"],
+    "tone": "caring, warm, professional, reassuring",
+    "imagery_notes": "Vets with animals, happy pets, clinic interior, caring moments",
+    "compliance": "Must provide 24-hour emergency cover details (RCVS requirement), display RCVS numbers"
+  },
+
+  "beauty_salon": {
+    "sections": ["navigation", "hero", "trust-strip", "services", "about", "gallery", "team", "testimonials", "cta", "contact", "footer"],
+    "hero_content": "Pampering headline about looking and feeling beautiful. CTA: Book Your Treatment.",
+    "key_features": ["service menu with pricing", "treatment descriptions", "staff profiles", "gallery of work", "online booking"],
+    "tone": "feminine, luxurious, pampering, welcoming",
+    "imagery_notes": "Treatment in progress, beautiful results, salon interior, product display"
+  },
+
+  "nail_salon": {
+    "sections": ["navigation", "hero", "services", "gallery", "about", "testimonials", "cta", "contact", "footer"],
+    "hero_content": "Creative headline about nail art and self-expression. CTA: Book Now.",
+    "key_features": ["service menu", "nail art gallery", "pricing clear", "walk-in info"],
+    "tone": "trendy, creative, colourful, fun",
+    "imagery_notes": "Nail art close-ups, colour palettes, salon interior, work in progress"
+  },
+
+  "tutoring": {
+    "sections": ["navigation", "hero", "trust-strip", "subjects", "about", "approach", "testimonials", "pricing", "cta", "faq", "contact", "footer"],
+    "hero_content": "Achievement headline about unlocking potential. Subtext about personalised approach. CTA: Book a Trial Session.",
+    "key_features": ["subjects and levels offered", "tutor qualifications + DBS", "pricing per session/package", "success stats", "parent testimonials"],
+    "tone": "supportive, knowledgeable, encouraging, professional",
+    "imagery_notes": "Study sessions, happy students, learning environments, achievement moments"
+  },
+
+  "generic_business": {
+    "sections": ["navigation", "hero", "trust-strip", "services", "about", "testimonials", "cta", "faq", "contact", "footer"],
+    "hero_content": "Clear headline about what the business does. Subtext about unique value. CTA: Get Started or Contact Us.",
+    "key_features": ["services/products overview", "about story", "testimonials", "contact details"],
+    "tone": "professional, clear, trustworthy",
+    "imagery_notes": "Business-specific, team photos, workspace, products/services in action"
+  }
+}
