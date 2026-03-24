@@ -5,7 +5,13 @@
   "main": "lib/server.js",
   "scripts": {
     "start": "node lib/server.js",
-    "dev": "node --watch lib/server.js"
+    "dev": "node --watch lib/server.js",
+    "harvest": "node lib/harvest-urls.js",
+    "analyse": "node lib/analyse-sites.js",
+    "analyse:100": "node lib/analyse-sites.js --limit 100",
+    "analyse:500": "node lib/analyse-sites.js --limit 500",
+    "aggregate": "node lib/update-intelligence.js",
+    "pipeline": "node lib/harvest-urls.js && node lib/analyse-sites.js --limit 100 && node lib/update-intelligence.js"
   },
   "dependencies": {
     "express": "^4.18.0",
