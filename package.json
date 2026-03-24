@@ -11,7 +11,8 @@
     "analyse:100": "node lib/analyse-sites.js --limit 100",
     "analyse:500": "node lib/analyse-sites.js --limit 500",
     "aggregate": "node lib/update-intelligence.js",
-    "pipeline": "node lib/harvest-urls.js && node lib/analyse-sites.js --limit 100 && node lib/update-intelligence.js"
+    "pipeline": "node lib/harvest-urls.js && node lib/analyse-sites.js --limit 100 && node lib/update-intelligence.js",
+    "run-continuous": "node lib/pipeline-runner.js"
   },
   "dependencies": {
     "express": "^4.18.0",
