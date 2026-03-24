@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-03-24",
+  "total_reports": 146,
+  "industries": {
+    "health_fitness": {
+      "count": 110,
+      "dimensions": {
+        "visual_complexity": 2.9,
+        "colourfulness": 3.8,
+        "prototypicality": 7.6,
+        "warmth": 4.5,
+        "typography_weight": 5.1,
+        "image_dominance": 2.1,
+        "contrast_level": 5.7,
+        "layout_density": 3.5
+      },
+      "dominant_theme": "light",
+      "heading_font_types": {
+        "sans-serif": 48
+      },
+      "body_font_types": {
+        "sans-serif": 48
+      },
+      "common_bg_colors": [
+        "#FFFFFF",
+        "#ffffff",
+        "#f9f9f9",
+        "#f5f5f5",
+        "#3A86FF"
+      ],
+      "common_primary_colors": [
+        "#1E50A0",
+        "#1E5799",
+        "#333333",
+        "#2c3e50",
+        "#1A73E8"
+      ],
+      "hero_patterns": [
+        "Minimalist circular graphic with brand logo and text below",
+        "Minimalist text-focused hero with centered headline and subheading, no background image or complex graphics.",
+        "Minimalist circular graphic with brand logo and domain name below.",
+        "Minimalist circular graphic with brand logo and domain name below",
+        "Minimalist circular graphic with text logo below",
+        "Minimalist layout with large framed images layered over a light background, featuring bold typography and a clean white content block at the bottom.",
+        "Text overlay on image with CTA button and bullet points",
+        "Minimalist circular graphic with brand logo and text below"
+      ]
+    },
+    "beauty_salon": {
+      "count": 24,
+      "dimensions": {
+        "visual_complexity": 3.2,
+        "colourfulness": 3.6,
+        "prototypicality": 6.6,
+        "warmth": 5.3,
+        "typography_weight": 5.6,
+        "image_dominance": 5.1,
+        "contrast_level": 5.7,
+        "layout_density": 3.9
+      },
+      "dominant_theme": "light",
+      "heading_font_types": {
+        "sans-serif": 17,
+        "display": 1,
+        "handwritten": 1
+      },
+      "body_font_types": {
+        "sans-serif": 19
+      },
+      "common_bg_colors": [
+        "#ffffff",
+        "#000000",
+        "#f5f5f5",
+        "#f8f8f8",
+        "#FFFFFF"
+      ],
+      "common_primary_colors": [
+        "#ffffff",
+        "#333333",
+        "#000000",
+        "#9B59B6",
+        "#6a0dad"
+      ],
+      "hero_patterns": [
+        "Large centered text overlay on a soft-focus image of a person applying skincare, with a subtle gradient overlay and minimal CTA button.",
+        "Minimalist text-centric hero with partial color gradient on name, centered, high contrast, no imagery.",
+        "Minimalist with centered logo and navigation, no imagery or text content, large empty space, two 'BOOK NOW' CTAs (top right and bottom center).",
+        "None \u2014 placeholder error page",
+        "Centered text with circular profile image on left, minimalist black background, clean spacing",
+        "Left-aligned large text with a large image on the right, featuring a 'Book Appointment' CTA button and a testimonial carousel indicator below the image.",
+        "Large image of a smiling woman with spa products, paired with bold heading text and a call-to-action button on the left side. The layout is split with image on right and text on left.",
+        "Minimalist header with logo, navigation, contact info, and booking CTA \u2014 no imagery or content below."
+      ]
+    },
+    "restaurant": {
+      "count": 12,
+      "dimensions": {
+        "visual_complexity": 2.0,
+        "colourfulness": 3.0,
+        "prototypicality": 6.6,
+        "warmth": 4.0,
+        "typography_weight": 4.6,
+        "image_dominance": 1.0,
+        "contrast_level": 5.0,
+        "layout_density": 2.6
+      },
+      "dominant_theme": "light",
+      "heading_font_types": {},
+      "body_font_types": {},
+      "common_bg_colors": [],
+      "common_primary_colors": [],
+      "hero_patterns": []
+    }
+  }
+}
