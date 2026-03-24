@@ -11,6 +11,10 @@
     "analyse:100": "node lib/analyse-sites.js --limit 100",
     "analyse:500": "node lib/analyse-sites.js --limit 500",
     "aggregate": "node lib/update-intelligence.js",
+    "extract": "node lib/extract-features.js",
+    "statistics": "python3 lib/analyse-patterns.py",
+    "playbooks": "node lib/synthesise-playbooks.js",
+    "synthesis": "node lib/extract-features.js && python3 lib/analyse-patterns.py && node lib/synthesise-playbooks.js",
     "pipeline": "node lib/harvest-urls.js && node lib/analyse-sites.js --limit 100 && node lib/update-intelligence.js",
     "run-continuous": "node lib/pipeline-runner.js"
   },
